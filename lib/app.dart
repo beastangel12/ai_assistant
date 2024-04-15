@@ -1,4 +1,5 @@
-import 'package:ai_assistant/Screens/text.dart';
+import 'package:ai_assistant/screens/splash_screens.dart';
+import 'package:ai_assistant/screens/text.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -7,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: first(),
+      home: SplashScreen(),
     );
   }
 }
